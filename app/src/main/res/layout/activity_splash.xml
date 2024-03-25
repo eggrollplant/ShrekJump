@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Shrekle Jump"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/shrek"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/shrek" />
+
+    <Button
+        android:id="@+id/play_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Play"
+        android:alpha=".65"
+        android:onClick="playActivate"
+        />
+
+
+
+    <Button
+        android:id="@+id/settings_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Settings"
+        android:alpha=".65"
+        />
+
+    <Button
+        android:id="@+id/quit_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Quit"
+        android:alpha=".65"
+        android:onClick="quitActivate"
+        />
+
+    <TextView
+        android:id="@+id/spinner_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Click here to pick your character "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/character_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#682828"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+
+        />
+
+
+    <!--
+
+    -->
+
+</LinearLayout>
